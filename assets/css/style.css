@@ -2,7 +2,77 @@ body {
 	margin-top: 20px;
 }
 
+h6 {
+	font-size: 15px;
+	font-weight: bold;
+}
 
+.parallax { 
+    /* The image used */
+    background-image: url("../images/whole_life.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.parallax2 { 
+    /* The image used */
+    background-image: url("../images/final_expense.jpeg");
+
+    /* Set a specific height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax2 {
+        background-attachment: scroll;
+    }
+}
+
+.thumbnail {
+	height: 200px;
+}
+
+.about {
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+
+.contact-card {
+	margin-bottom: 40px;
+	height: 400px;
+	box-shadow: 3px 3px 3px 2px #999999;
+	padding-top: 30px;
+	width: 250px;
+	background-color: #FFFFFF;
+}
+
+.employee-info {
+	background-color: #d3d3d3;
+	padding: 30px;
+}
 
 .icon-bar {
 	color: white;
