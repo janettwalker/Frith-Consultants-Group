@@ -28,9 +28,9 @@ h6 {
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1024px) {
-    .parallax {
+  .parallax {
         background-attachment: scroll;
-    }
+  }
 }
 
 .parallax2 { 
@@ -50,9 +50,9 @@ h6 {
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1024px) {
-    .parallax2 {
+  .parallax2 {
         background-attachment: scroll;
-    }
+  }
 }
 
 
@@ -469,55 +469,55 @@ h6 {
     background-color: #3a4e70;
   }
 
-.navbar-default {
+  .navbar-default {
 	background-color: white;
 	border-color: white;
 	opacity: 30%;
-}
+  }
 
-.navbar:hover {
+  .navbar:hover {
 	color: #465f89;
-}
+  }
 
-.navbar-header .navbar-toggle {
+  .navbar-header .navbar-toggle {
 	color: white;
-}
+  }
 
 /*end navbar style
 */
 
 @media screen and (max-width: 1020px){
-	.profile-info {
+  .profile-info {
 	color: #BDBDBD;
 	padding: 25px;
     position: relative;
     margin-top: 15px;
 	height: 500px;
-	}
+  }
 } 
 
 
 @media screen and (max-width: 740px){
-	.profile-info {
+  .profile-info {
 	color: #BDBDBD;
 	padding: 25px;
     position: relative;
     margin-top: 15px;
 	height: 500px;
 	}
-}
+  }
 
 @media screen and (max-width: 500px){
-	h2 {
+  h2 {
 		font-size: 30px;
-	}
+  }
 
 @media screen and (max-width: 740px){
-	.profile-info {
+  .profile-info {
 	color: #BDBDBD;
 	padding: 25px;
     position: relative;
     margin-top: 15px;
 	height: 400px;
-	}
+  }
 }
